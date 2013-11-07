@@ -1,9 +1,16 @@
 {
 	"name": "scaff",
-	"version": "0.0.2",
+	"version": "0.0.1",
 	"description": "A Set of Tools to Make Web Development a Little More Easy and Fast!",
 	"author": "Victor Bastos",
-	"main": "scaffoldr.js",
+	"main": "scaff.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/baltazzar/scaff.git"
+	},
+	"bugs": {
+		"url": "http://github.com/baltazzar/scaff/issues"
+	},
 	"dependencies": {
 		"grunt": "*",
 		"grunt-contrib-watch": "*",
@@ -17,6 +24,6 @@
 	},
 	"preferGlobal": "true",
 	"bin": {
-		"scaff": "scaffoldr.js"
+		"scaff": "scaff.js"
 	}
 }

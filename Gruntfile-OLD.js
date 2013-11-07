@@ -2,13 +2,14 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		rootPath: grunt.option('folder'),
 		serverPort: 3000,
+		livereloadPort: 4000,
 		connect: {
 			server: {
 				options: {
 					port: '<%= serverPort %>',
 					base: '<%= rootPath %>',
 					hostname: 'localhost',
-					livereload: true
+					livereload: '<%= livereloadPort %>'
 				}
 			}
 		},
@@ -34,7 +35,7 @@ module.exports = function(grunt) {
 				dateFormat: function(time) {
 					grunt.log.writeln('Tarefa executada em ' + time + 'ms! Aguardando alterações...');
 				},
-				livereload: true
+				livereload: '<%= livereloadPort %>'
 			},
 			html: {
 				files: '<%= rootPath %>/index.html'
