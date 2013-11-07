@@ -1,22 +1,22 @@
 {
-	"name": "Scaffoldr-Grunt",
+	"name": "Scaffoldr",
 	"version": "0.0.1",
 	"description": "A Set of Tools to Make Web Development a Little More Easy and Fast!",
 	"author": "Victor Bastos",
 	"main": "scaffoldr.js",
-	"devDependencies": {
+	"dependencies": {
 		"grunt": "*",
-		"grunt-contrib-watch": "~0.5.3",
-		"grunt-contrib-handlebars": "~0.5.11",
-		"grunt-contrib-connect": "~0.5.0",
-		"shelljs": "~0.2.6",
-		"open": "0.0.4"
+		"grunt-contrib-watch": "*",
+		"grunt-contrib-handlebars": "*",
+		"grunt-contrib-connect": "*",
+		"shelljs": "*",
+		"open": "*"
 	},
 	"scripts": {
 		"preinstall": "npm install -g grunt-cli"
 	},
 	"preferGlobal": "true",
 	"bin": {
-		"scaffGrunt": "scaffoldr.js"
+		"scaff": "scaffoldr.js"
 	}
 }
