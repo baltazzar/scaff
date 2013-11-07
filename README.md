@@ -8,6 +8,10 @@ A Set of Tools to Make Web Development a Little More Easy and Fast!
 npm install -g git://github.com/baltazzar/scaff
 ```
 
+## Configuration
+
+Create a file called scaff.js in the root of your application and copy the contents of the file scaff-example.js in it. Changes the paths and variables by values of your choice. That's it!
+
 ## Tasks
 
 ### Server
