@@ -1,6 +1,6 @@
 {
-	"name": "Scaffoldr",
-	"version": "0.0.1",
+	"name": "scaff",
+	"version": "0.0.2",
 	"description": "A Set of Tools to Make Web Development a Little More Easy and Fast!",
 	"author": "Victor Bastos",
 	"main": "scaffoldr.js",
