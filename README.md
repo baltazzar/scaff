@@ -2,6 +2,10 @@
 
 A Set of Tools to Make Web Development a Little More Easy and Fast!
 
+## Dependencies
+
+This tool requires Node.js ~0.10.21
+
 ## Install
 
 ```
