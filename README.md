@@ -1,4 +1,4 @@
-# Scaff
+# Scaff (deprecated in favor of Grunt)
 
 A Set of Tools to Make Web Development a Little More Easy and Fast!
 
